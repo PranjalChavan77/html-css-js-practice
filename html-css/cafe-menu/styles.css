@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1200");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 30px;
+}
+
+.menu {
+  width: 80%;
+  max-width: 550px;
+
+  background: #fdf6ec;
+
+  margin: auto;
+
+  padding: 30px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 42px;
+
+  color: #5c3b1e;
+
+  margin-bottom: 10px;
+}
+
+.established {
+  text-align: center;
+
+  font-style: italic;
+
+  color: #666;
+
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+
+  font-size: 30px;
+
+  color: #6f4e37;
+
+  margin: 25px 0 20px;
+}
+
+hr {
+  height: 2px;
+
+  border: none;
+
+  background: #8b4513;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+
+  margin: 8px 0;
+
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  width: 75%;
+
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+
+  text-align: right;
+
+  color: #8b4513;
+
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+
+  margin-top: 20px;
+
+  font-size: 14px;
+}
+
+.address {
+  margin-top: 8px;
+}
+
+/* LINKS */
+
+a {
+  color: #5c3b1e;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a0522d;
+}
