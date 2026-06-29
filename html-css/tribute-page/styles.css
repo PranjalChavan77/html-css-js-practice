@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  background-color: #bec3be;
+  padding: 0;
+}
+
+h1{
+  font-weight: bold;
+  text-shadow: 5px 5px 10px grey;
+  font-family: 'Georgia', serif;
+  font-size: 4rem;
+  text-align: center;
+  color: #2c3e50;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-image: linear-gradient(135deg, #e74c3c, #3498db);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.3s ease;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 4px;
+  background-color: #f39c12;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+h1:hover {
+  color: #f39c12;
+  transform: scale(1.1);
+}
+ 
+ h3{
+   font-size:20px;
+   margin: 10px;
+   padding: 10px;
+   font-family: Georgia;
+   border-radius: 10px;
+ }
+
+ body{
+   background-color: rgb(46, 139, 87, 0.25);
+   box-shadow: 20px 20px 20px #bec3be;
+   font-family: Georgia;
+   margin: 11px;
+   margin-top: 50px;
+   text-align: center;
+ }
+
+ .img-container{
+   margin: auto;
+   padding: 30px;
+   display: block;
+ }
+
+ .tata-image{
+   object-fit: contain;
+   border-radius: 10px;
+   max-width:100%;
+   display: block;
+   height: auto;
+   margin: auto;
+ }
+
+ .caption{
+   padding-top: 5px;
+   margin: 10px;
+   margin-bottom: 5px;
+   font-family: Georgia;
+ }
+
+ .life{
+   font-size: 20px;
+   padding: 30px 70px;
+   max-width: 600px;
+   margin: 10px auto;
+   background-color: #bec3be;
+   text-align: left;
+ }
+
+ .life-header{
+   font-size: 20px;
+   font-family: Georgia;
+   padding: 30px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .bold{
+   font-weight: bold;
+ }
+
+ li{
+   margin: 25px;
+ }
+
+ .quote{
+   margin: 30px 30px 5px;
+   font-style: italic;
+ }
+
+ .quote-author{
+   text-indent: 30px;
+ }
+
+ a{
+   color: darkblue;
+ }
+
