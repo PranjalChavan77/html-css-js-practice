@@ -27,7 +27,7 @@ This project focuses on building structured tables, applying modern styling tech
 
 ## 📸 Preview
 
-![Book Inventory Dashboard](assets/preview.png)
+![Book Inventory Dashboard](assets/preview.PNG)
 
 ---
 
