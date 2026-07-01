@@ -37,7 +37,7 @@ This project focuses on building structured tables, applying modern styling tech
 book-inventory-dashboard/
 │
 ├── assets/
-│   └── preview.png
+│   └── preview.PNG
 │
 ├── index.html
 ├── styles.css
